@@ -12,7 +12,7 @@ RUN apt-get update && \
 # Clone your Git repository into Apache's web root
 # Replace with your actual repo URL
 RUN rm -rf /var/www/html/* && \
-    git clone https://github.com/your-org/your-repo.git /var/www/html/core
+    git clone https://github.com/jagan-prakash/htmlo.git /var/www/html/core
 
 # Expose Apache port
 EXPOSE 81
