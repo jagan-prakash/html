@@ -15,7 +15,7 @@ RUN rm -rf /var/www/html/* && \
     git clone https://github.com/your-org/your-repo.git /var/www/html/core
 
 # Expose Apache port
-EXPOSE 80
+EXPOSE 81
 
 # Start Apache in foreground (important for Docker)
 CMD ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"]
